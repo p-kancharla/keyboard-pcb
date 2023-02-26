@@ -2088,12 +2088,12 @@
     (property "Datasheet" "~" (at 34.29 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6b36f2c5-247c-4a17-a0e1-f8fc9ec7e12e))
-    (pin "" (uuid 6b36f2c5-247c-4a17-a0e1-f8fc9ec7e12e))
-    (pin "1" (uuid 80819b47-8a98-4d7b-ac7b-016efbf52e8e))
-    (pin "1" (uuid 80819b47-8a98-4d7b-ac7b-016efbf52e8e))
-    (pin "2" (uuid 51560bd3-a8ee-49f5-ace1-b811cdacf3fa))
-    (pin "2" (uuid 51560bd3-a8ee-49f5-ace1-b811cdacf3fa))
+    (pin "" (uuid 6b36f2c5-247c-4a17-a0e1-f8fc9ec7e130))
+    (pin "" (uuid 6b36f2c5-247c-4a17-a0e1-f8fc9ec7e130))
+    (pin "1" (uuid 80819b47-8a98-4d7b-ac7b-016efbf52e90))
+    (pin "1" (uuid 80819b47-8a98-4d7b-ac7b-016efbf52e90))
+    (pin "2" (uuid 51560bd3-a8ee-49f5-ace1-b811cdacf3fc))
+    (pin "2" (uuid 51560bd3-a8ee-49f5-ace1-b811cdacf3fc))
     (instances
       (project "TKL"
         (path "/dd1a797b-d482-4fb7-b017-a28c5b5e9224"
@@ -2526,6 +2526,23 @@
         (path "/dd1a797b-d482-4fb7-b017-a28c5b5e9224"
           (reference "R?") (unit 1)
         )
+      )
+    )
+  )
+
+  (sheet (at 284.48 207.01) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f701a118-e1db-4ab3-8c71-6043793ad419)
+    (property "Sheetname" "matrix" (at 284.48 206.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "matrix.kicad_sch" (at 284.48 211.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "TKL"
+        (path "/dd1a797b-d482-4fb7-b017-a28c5b5e9224" (page "2"))
       )
     )
   )
